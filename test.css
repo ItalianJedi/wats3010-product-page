@@ -3,26 +3,66 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 
-body {
+/*body {
     padding-top: 30px;
     padding-bottom: 20px;
     color: green;
     margin: 0 auto;
     width: 75%;
     padding: 1rem;
+}*/
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 67px 67px 67px 67px;
+    /*color: #43F723;*/
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
 }
 
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* I had to look this up */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.navbar-brand {
+    height: 75px;
+    width: 300px;
+}
 
 /* below is just for testing */
 
 /* Background image */
 .jumbotron {
   background:url('test.jpg');
+  /*color: #43F723;*/
   color: white;
   text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  /*padding-top: 10rem;
+  padding-bottom: 10rem;*/
   text-shadow: 2px 2px #000;
+}
+
+.my-4 {
+    color: white;
 }
 
 .lead span {
@@ -54,4 +94,27 @@ body {
 	display: inline-block;
 	padding-right: 100px;
 	padding-left: 100px;
+}
+
+/*html {
+    background-image: url(chalkboard.jpg);
+    /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/Xanadu_on_Map_of_Asia.JPG)
+    I tried using the above image but didn't seem to work for me. I also wanted to get some CSS notes on my page. Hello!*/
+    /*background-repeat: no-repeat;
+    background-size: cover;
+}*/
+html {
+    background: #4E5250;
+    background-attachment: fixed;
+    color: white;
+}
+
+#testimonials ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+img {
+    border-radius: 50%
 }
