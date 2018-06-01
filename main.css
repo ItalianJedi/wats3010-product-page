@@ -1,8 +1,161 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
+/* Body */
+/*body {
     padding-top: 30px;
     padding-bottom: 20px;
     color: green;
+}*/
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.1);
+    /*color: #43F723;*/
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* I had to look this up */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/*html {
+    background: #4E5250;
+    background-attachment: fixed;
+    color: white;
+}*/
+
+html {
+    background-image: url(chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Links */
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+/* Navagation */
+.navbar-brand {
+    height: 60px;
+    width: 300px;
+    font-size: 36px;
+}
+
+.bg-dark {
+    background: linear-gradient(#18191A,#484A4A);
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image:url('test.jpg');
+  /*color: #43F723;*/
+  color: white;
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  /*padding-top: 10rem;
+  padding-bottom: 10rem;*/
+  text-shadow: 2px 2px #000;
+}
+
+.my-4 {
+    color: white;
+}
+
+.lead span {
+  color: orange;
+  font-weight: bold;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Features */
+#features ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.fa-shopping-cart{
+font-size: 75px;
+}
+
+.fa-archive{
+font-size: 75px;
+}
+
+.fa-shipping-fast{
+font-size: 75px;
+}
+
+
+/* .fas {
+    width: 20px;
+    height: 20px;
+} */
+
+/* Testimonitals */
+#testimonials ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+img {
+    border-radius: 50%
+}
+
+/* Footer */
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item-flex {
+    flex: 0 1 auto;
+}
+
+#testimonial {
+    padding-top: 100px;
 }

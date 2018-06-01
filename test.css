@@ -12,15 +12,25 @@
     padding: 1rem;
 }*/
 
+/* Links */
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
 body {
     margin: 0 auto;
     width: 80%;
     padding: 1rem;
     background-color: rgba(255,255,255,0.1);
-    border-radius: 67px 67px 67px 67px;
     /*color: #43F723;*/
     color: white;
-    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
+   font-family: 'Neucha', cursive;
+
 }
 
 h2 {
@@ -46,11 +56,15 @@ hr {
     width: 300px;
 }
 
+.navbar {
+    background-color: transparent;
+}
+
 /* below is just for testing */
 
 /* Background image */
 .jumbotron {
-  background:url('test.jpg');
+  background-image:url('test.jpg');
   /*color: #43F723;*/
   color: white;
   text-align: center;
@@ -96,18 +110,17 @@ hr {
 	padding-left: 100px;
 }
 
-/*html {
-    background-image: url(chalkboard.jpg);
-    /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/Xanadu_on_Map_of_Asia.JPG)
-    I tried using the above image but didn't seem to work for me. I also wanted to get some CSS notes on my page. Hello!*/
-    /*background-repeat: no-repeat;
-    background-size: cover;
-}*/
 html {
+    background-image: url(chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*html {
     background: #4E5250;
     background-attachment: fixed;
     color: white;
-}
+}*/
 
 #testimonials ul li {
 	display: inline-block;
@@ -118,3 +131,15 @@ html {
 img {
     border-radius: 50%
 }
+
+/* Footer */
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item-flex {
+    flex: 0 1 auto;
+}
+
