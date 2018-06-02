@@ -8,6 +8,12 @@
     color: green;
 }*/
 
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
 body {
     margin: 0 auto;
     width: 80%;
@@ -15,7 +21,8 @@ body {
     background-color: rgba(255,255,255,0.1);
     /*color: #43F723;*/
     color: white;
-    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    font-family: 'Neucha', cursive;
 }
 
 h2 {

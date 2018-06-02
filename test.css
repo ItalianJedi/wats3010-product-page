@@ -133,13 +133,25 @@ img {
 }
 
 /* Footer */
-.footer-flex {
+/*.footer-flex {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 
 .footer-item-flex {
     flex: 0 1 auto;
 }
 
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

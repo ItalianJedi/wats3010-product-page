@@ -23,7 +23,8 @@
         <!-- End Bootstrap CSS Framework -->
         
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
         <!-- Google Font Ends -->
 
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
@@ -39,12 +40,6 @@
     </head>
     
     <body>
-        <!-- Note: If you do not see a camera icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how FontAwesome is linked to this page. -->
-        <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -76,6 +71,9 @@
     </nav>
     <!--Navigation Ends-->
 
+    <!-- Page Content -->
+    <div class="container">
+
     <!--Jumbotron-->
     
         <div class="container">
@@ -101,7 +99,32 @@
     <!-- Features -->
     <section id="Features">            
         <h2>Features</h2>
-        <features class="py-5 bg-dark">
+         <div class="row">
+        <div class="col-lg-4 mb-4">
+            <i class="fas fa-shopping-cart"></i>
+            <br>
+            You can quickly and effortlessly
+            <br>
+              find any API with one click
+              <br>
+              FAST AND EASY!
+        </div>
+        <div class="col-lg-4 mb-4">
+              <i class="fas fa-archive"></i>
+              <br>
+              We've teamed up with all major APIs
+              <br>
+              1000's of APIs
+        </div>
+        <div class="col-lg-4 mb-4">
+              <i class="fas fa-shipping-fast"></i>
+              <br>
+              No need to look anywhere else!
+              <br>
+              One Stop Shop
+        </div>
+        </div>
+        <!--<features class="py-5 bg-dark">
           <div class="container">
             <div class="footer-flex">
               <i class="fas fa-shopping-cart"></i>
@@ -123,7 +146,7 @@
             </div>
           </div>
      <!-- /.container -->
-        </features>
+        <!--</features> -->
             
             <hr>
     
@@ -136,28 +159,25 @@
     <!-- Testimonials -->
     <section id="Testimonials">            
         <h2>Testimonials</h2>
-        <testimonial class="py-5 bg-dark">
-            <div class="container">
-                <div class="footer-flex">
-                    <img class="headshot" src="design/Images/test1.2.jpg" alt="Hans D Testimonial">
-                        "This is the greatest thing of all things!"
-                        <br>
-                        -Hans D
-                      <img class="headshot" src="design/Images/test2.2.jpg" alt="Troy N Testimonial">
-                        "So easy to use and so many choices!"
-                        <br>
-                        -Troy N
-                      <img class="headshot" src="design/Images/test3.1.jpg" alt="Don S Testimonial">
-                        "I am telling everyone!"<br>
-                        -Don S
-            </div>
-            </div>
-     <!-- /.container -->
-        </testimonial>
-            
-
-            
+        <div class="row">
+        <div class="col-lg-4 mb-4">
+          <img class="headshot" src="design/Images/test1.2.jpg" alt="Hans D Testimonial"><br>
+            "This is the greatest thing of all things!"<br>
+            -Hans D
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img class="headshot" src="design/Images/test2.2.jpg" alt="Troy N Testimonial"><br>
+            "So easy to use and so many choices!"<br>
+            -Troy N
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img class="headshot" src="design/Images/test3.1.jpg" alt="Don S Testimonial"><br>
+            "I am telling everyone!"<br>
+            -Don S
+        </div>
+        </div>
             <hr>
+        
             
             <!-- Sign Up Form -->
         <section id="SignUp">                        
@@ -188,12 +208,8 @@
 
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    </body>
-    
+    <!-- Page Content Container ends> -->
+    </div>
     
     <!-- Footer -->
     <footer class="py-5 bg-dark">
@@ -229,5 +245,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+ 
+</body>
 
 </html>
