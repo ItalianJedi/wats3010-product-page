@@ -29,6 +29,7 @@
 
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
@@ -103,33 +104,35 @@
         <!-- Explainer Video -->
     <section id="How">            
         <h2>How It Works!</h2>
+        <div class="video-responsive">
         <p><iframe width="560" height="340" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        </div>
     <hr>
     
-        <!-- Testimonials -->
+      <!-- Testimonials -->
     <section id="Testimonials">            
         <h2>Testimonials</h2>
         <div class="row">
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-4 mb-4 sm-4">
           <img class="headshot" src="design/Images/test1.2.jpg" alt="Hans D Testimonial"><br>
             "This is the greatest thing of all things!"<br>
             -Hans D
         </div>
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-4 mb-4 sm-4">
           <img class="headshot" src="design/Images/test2.2.jpg" alt="Troy N Testimonial"><br>
             "So easy to use and so many choices!"<br>
             -Troy N
         </div>
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-4 mb-4 sm-4">
           <img class="headshot" src="design/Images/test3.1.jpg" alt="Don S Testimonial"><br>
             "I am telling everyone!"<br>
             -Don S
         </div>
         </div>
- 
             <hr>
-    
-        <!-- Sign Up Form -->
+        
+            
+            <!-- Sign Up Form -->
         <section id="SignUp">                        
             <form>
                 <div class="form-group">
@@ -148,15 +151,63 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             <br>
-    
+
+
+        <!-- TODO: Create an area to show features. -->
+
+
+        <!-- TODO: Create an area that allows users to Share links to the
+             page. -->
+
+        <!-- TODO: Create a call to action link to get users to sign up for the
+             service. -->
     <!-- Page Content Container ends> -->
     </div>
     
-        <!-- Footer -->
+    <!-- Footer -->
     <footer class="py-5 bg-dark">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-4 mb-4">
+          <img class="footer">Hours:
+          <br>
+           Monday - Saturday: 9 am - 7 pm
+            <br>
+           Sundays Closed
+            <br>
+           Contact:
+            <br>
+           info@apisuperstore.com
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img class="footer">Location:
+          <br>
+            2534 15th Ave S
+            <br>
+            Seattle, WA 98144
+            <br>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img class="footer"><br>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.371302652304!2d-122.31538278412472!3d47.58001957918294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a86f2893e11%3A0xcc8c996df322286c!2s2534+15th+Ave+S%2C+Seattle%2C+WA+98144!5e0!3m2!1sen!2sus!4v1527784951316" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </p>
+        </div>
+        </div>
+    <div class="footer-flex">
+      <p class="footer-item-flex text-brown">Copyright &copy; API Superstore 2018</p>
+      <ul class="social-links">
+            <li class="twitter"><a href="http://twitter.com" class="fab fa-twitter-square fa-2x"></a></li>
+            <li class="facebook"><a href="http://facebook.com" class="fab fa-facebook fa-2x"></a></li>
+            <li class="instagram"><a href="http://instagram.com" class= "fab fa-instagram fa-2x"></a></li>
+      </ul>
+      <p class="footer-item-flex text-brown">Italian Jedi</p>
+    </div>
+        </div>
+    </footer>
+    
+    <!--<footer class="py-5 bg-dark">
       <div class="container">
     <div class="footer-flex">
-        <div class="col-lg-4 mb-4">
       <p class="footer-item-flex text-brown">Hours
       <br>
       Monday - Saturday: 9 am - 7 pm
@@ -170,27 +221,35 @@
       <br>
       <br>
       Copyright &copy; Italian Jedi 2018</p>
-      <div class="col-lg-4 mb-4">
       <p class="footer-item-flex text-brown">Location
       <br>
       2534 15th Ave S
       <br>
       Seattle, WA 98144
+      <br>
+            <ul class="social-links">
+                <li class="twitter"><a href="http://twitter.com" class="fa fa-twitter"></a></li>
+                <li class="facebook"><a href="http://facebook.com" class="fa fa-facebook"></a></li>
+                <li class="instagram"><a href="http://instagram.com" class="fa fa-instagram"></a></li>
+            </ul>
       </p>
-      <div class="col-lg-4 mb-4">
       <p class="footer-item-flex text-brown"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.371302652304!2d-122.31538278412472!3d47.58001957918294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a86f2893e11%3A0xcc8c996df322286c!2s2534+15th+Ave+S%2C+Seattle%2C+WA+98144!5e0!3m2!1sen!2sus!4v1527784951316" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
       </p>
     </div>
-    </div>
+    </div>-->
     <!-- /.container -->
-  </footer>
+  <!--</footer>-->
   <!-- Footer Ends -->
-  
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+ 
 </body>
 
 </html>
-    
