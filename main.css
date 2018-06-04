@@ -89,7 +89,8 @@ a:visited {
 
 /* Jumbotron */
 .jumbotron {
-  background-image: linear-gradient(to right, rgba(40, 180, 131, 0.6), rgba(126, 213, 111, 0.6)), url('test.jpg');
+  /*background-image: linear-gradient(to right, rgba(255, 64, 10, 0.4), rgba(255, 88, 51, 0.4)), url('test.jpg');*/
+  background-image: linear-gradient(to right, rgba(64, 51, 234, 0.4), rgba(96, 142, 234, 0.4)), url('test.jpg');
   /*color: #43F723;*/
   color: white;
   text-align: center;
