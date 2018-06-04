@@ -2,11 +2,6 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 /* Body */
-/*body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
-}*/
 
 .fas {
     padding: 10px
@@ -80,7 +75,7 @@ a:visited {
     color: green;
 }
 
-/* Navagation */
+/* Navigation */
 .navbar-brand {
     height: 60px;
     width: 300px;
