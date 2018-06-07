@@ -1,36 +1,52 @@
-@CHARSET "UTF-8";
+/*@CHARSET "UTF-8";*/
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/* Body */
 
-/*body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
-    margin: 0 auto;
-    width: 75%;
-    padding: 1rem;
-}*/
-
-/* Links */
-a:hover {
-    color: red;
+.fas {
+    padding: 10px
 }
 
-a:visited {
-    color: green;
+.headshot {
+    padding: 50px;
+}
+
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
 }
 
 body {
     margin: 0 auto;
-    width: 80%;
-    padding: 1rem;
-    background-color: rgba(255,255,255,0.1);
-    /*color: #43F723;*/
+    width: 100%;
+    padding: 0;
+    font-family: 'Merienda One', cursive;
+    background-image: url(chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    /*font-family: 'Fredericka the Great', cursive;*/
-   font-family: 'Neucha', cursive;
+}
 
+.content-wrapper {
+    background-color: rgba(255,255,255,0.1);
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    /*color: #43F723;*/
+    /*font-family: 'Fredericka the Great', cursive;*/
+    /*font-family: 'Neucha', cursive;*/
+}
+
+h1 {
+    text-align: center;
 }
 
 h2 {
@@ -51,20 +67,40 @@ hr {
     padding: 0; 
 }
 
+
+/*html {
+    background-image: url(chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+/* Links */
+ul.nav a:hover { color: red !important; }
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+/* Navigation */
 .navbar-brand {
-    height: 75px;
+    height: 60px;
     width: 300px;
+    font-size: 36px;
 }
 
-.navbar {
-    background-color: transparent;
+.bg-dark {
+    background: linear-gradient(#18191A,#484A4A);
 }
 
-/* below is just for testing */
 
-/* Background image */
+/* Jumbotron */
 .jumbotron {
-  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 131, 0.5)), url('test.jpg');
+  /*background-image: linear-gradient(to right, rgba(255, 64, 10, 0.4), rgba(255, 88, 51, 0.4)), url('test.jpg');*/
+  background-image: linear-gradient(to right, rgba(64, 51, 234, 0.4), rgba(96, 142, 234, 0.4)), url('test.jpg');
   /*color: #43F723;*/
   color: white;
   text-align: center;
@@ -121,64 +157,95 @@ hr {
   z-index: -1;
 }
 
-/* Video */
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
 /* Features */
-#about ul li {
-	display: inline-block;
-	padding-right: 100px;
-	padding-left: 100px;
-}
-
-html {
-    background-image: url(chalkboard.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*html {
-    background: #4E5250;
-    background-attachment: fixed;
-    color: white;
-}*/
-
-#testimonials ul li {
+#features ul li {
 	display: inline-block;
 	padding-right: 20px;
 	padding-left: 20px;
+}
+
+/*.fa-shopping-cart{
+    font-size: 85px;
+}
+
+.fa-archive{
+    font-size: 85px;
+}
+
+.fa-shipping-fast{
+    font-size: 85px;
+}*/
+
+/* Video */
+.video-responsive{
+    overflow:hidden;
+    padding-bottom: 25%;
+    padding-top: 35px;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* .fas {
+    width: 20px;
+    height: 20px;
+} */
+
+/* Testimonitals */
+#testimonials ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 40px;
 }
 
 img {
     border-radius: 50%
 }
 
+/* Sign Up Form */
+form {
+    margin: 0 auto;
+}
+
 /* Footer */
-/*.footer-flex {
+.footer-flex {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-}*/
+}
 
 .footer-item-flex {
     flex: 0 1 auto;
 }
 
-.footer-flex {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-    width: 100%;
-    color: white;
-    text-align: center;
+/*footer {
+    padding-left: 30px;
+}*/
+
+ul li {
+    display: inline;
+    padding: 25px
 }
+
+/* Test */
+/*.wrap {
+		position:relative;
+		margin:0 auto;
+		width:1900px;
+	}*/
+
+#footer {
+		width:100%;
+	}
+	
+#footer {
+		bottom:0;
+		z-index:999999;
+	}
+/*#testimonial {
+    padding-top: 100px;
+}*/

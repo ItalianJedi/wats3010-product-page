@@ -25,14 +25,23 @@
 
 body {
     margin: 0 auto;
-    width: 80%;
-    padding: 1rem;
-    background-color: rgba(255,255,255,0.1);
-    /*color: #43F723;*/
+    width: 100%;
+    padding: 0;
+    font-family: 'Merienda One', cursive;
+    background-image: url(chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+}
+
+.content-wrapper {
+    background-color: rgba(255,255,255,0.1);
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    /*color: #43F723;*/
     /*font-family: 'Fredericka the Great', cursive;*/
     /*font-family: 'Neucha', cursive;*/
-    font-family: 'Merienda One', cursive;
 }
 
 h1 {
@@ -215,15 +224,30 @@ form {
     flex: 0 1 auto;
 }
 
-footer {
+/*footer {
     padding-left: 30px;
-}
+}*/
 
 ul li {
     display: inline;
     padding: 25px
 }
 
+/* Test */
+/*.wrap {
+		position:relative;
+		margin:0 auto;
+		width:1900px;
+	}*/
+
+#footer {
+		width:100%;
+	}
+	
+#footer {
+		bottom:0;
+		z-index:999999;
+	}
 /*#testimonial {
     padding-top: 100px;
 }*/
