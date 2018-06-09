@@ -92,7 +92,8 @@ a:visited {
 }
 
 .bg-dark {
-    background: linear-gradient(#18191A,#484A4A);
+    /*background: linear-gradient(#18191A,#484A4A);*/
+    opacity: .5;
 }
 
 
@@ -178,17 +179,14 @@ a:visited {
 /* Video */
 .video-responsive{
     overflow:hidden;
-    padding-bottom: 35%;
+    padding-bottom: 25%;
     padding-top: 35px;
     position:relative;
     height:0;
 }
 .video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    display: block;
+    margin: 0 auto;
 }
 
 

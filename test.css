@@ -93,7 +93,8 @@ a:visited {
 }
 
 .bg-dark {
-    background: linear-gradient(#18191A,#484A4A);
+    /*background: linear-gradient(#18191A,#484A4A);*/
+    opacity: .5;
 }
 
 
@@ -207,9 +208,15 @@ img {
 }
 
 /* Sign Up Form */
+
+
 form {
-    margin: 0 auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
+
 
 /* Footer */
 .footer-flex {
@@ -238,13 +245,13 @@ ul li {
 		width:1900px;
 	}*/
 
-#footer {
+/*#footer {
 		width:100%;
 	}
 	
 #footer {
 		bottom:0;
-		z-index:999999;
+		z-index:999999;*/
 	}
 /*#testimonial {
     padding-top: 100px;
