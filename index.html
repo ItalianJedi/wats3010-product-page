@@ -35,7 +35,7 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         
         <link href="main.css" rel="stylesheet">
-    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/05C1106C-DA86-7C4D-B919-E1E37BBDAE08/main.js" charset="UTF-8"></script></head>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/05C1106C-DA86-7C4D-B919-E1E37BBDAE08/main.js" charset="UTF-8"></script><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/05C1106C-DA86-7C4D-B919-E1E37BBDAE08/main.js" charset="UTF-8"></script></head>
     
     <body>
     <!-- Page Content -->
@@ -158,42 +158,48 @@
             
             <!-- Sign Up Form -->
         <section id="SignUp">
-            <h2>Sign Up Today!</h2>
-            <form>
-                <div class="signup">
-                <div class="form-group">
-                <div class="col-7">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                </div>
-                <div class="form-group">
-                <div class="col-7">
-                    <label for="exampleInputPassword1">Username</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Username">
-                </div>
-                </div>
-                <div class="form-group">
-                <div class="col-7">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                </div>
-                <div class="form-group">
-                <div class="col-7">
-                    <label for="exampleInputPassword1">Re-Type Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re-Type Password">
-                </div>
-                </div>
-                <br>
-                <div class="form-check">
-                    <button type="submit" class="btn btn-primary">Sign Up</button>
-                </div>
-                </div>
-            </form>
-            <br>
-            <hr>
+
+            <div class="container">
+  <h2>Sign Up Today!</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="username">Username:</label>
+      <div class="col-sm-10">          
+        <input type="username" class="form-control" id="username" placeholder="Enter username" name="username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Password:</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Re-Type Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="rtpwd" placeholder="Enter password" name="rtpwd">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
 
     <!-- Page Content Container ends> -->
     </div>

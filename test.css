@@ -29,7 +29,7 @@ body {
     width: 100%;
     padding: 0;
     font-family: 'Merienda One', cursive;
-    background-image: url(chalkboard.jpg);
+    background-image: url(chalkboard.gif);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -130,6 +130,8 @@ a:visited {
     }
 }
 
+
+
 .my-4 {
     color: white;
 }
@@ -210,12 +212,11 @@ img {
 /* Sign Up Form */
 
 
-form {
-    display: inline-block;
+.form-inline {
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
 }
+
 
 
 /* Footer */
