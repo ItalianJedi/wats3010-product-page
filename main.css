@@ -3,19 +3,6 @@
 
 /* Body */
 
-.fas {
-    padding: 10px
-}
-
-.headshot {
-    padding: 50px;
-}
-
-.col-centered {
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 @media (min-width: 992px) {
   body {
@@ -96,6 +83,42 @@ a:visited {
     opacity: .5;
 }
 
+/* Sections */
+#About:before {
+   content: "";
+   display: block;
+   height: 100px;
+   margin: -90px 0 0;
+}
+
+#Features:before {
+   content: "";
+   display: block;
+   height: 100px;
+   margin: -90px 0 0;
+}
+
+#How:before {
+   content: "";
+   display: block;
+   height: 100px;
+   margin: -90px 0 0;
+}
+
+#Testimonials:before {
+   content: "";
+   display: block;
+   height: 100px;
+   margin: -90px 0 0;
+}
+
+#SignUp:before {
+   content: "";
+   display: block;
+   height: 100px;
+   margin: -90px 0 0;
+}
+
 
 /* Jumbotron */
 .jumbotron {
@@ -164,17 +187,10 @@ a:visited {
 	padding-left: 20px;
 }
 
-/*.fa-shopping-cart{
-    font-size: 85px;
+.fas {
+    padding: 10px
 }
 
-.fa-archive{
-    font-size: 85px;
-}
-
-.fa-shipping-fast{
-    font-size: 85px;
-}*/
 
 /* Video */
 .video-responsive{
@@ -205,6 +221,16 @@ a:visited {
 img {
     border-radius: 50%
 }
+
+.headshot {
+    padding: 50px;
+}
+
+/*.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}*/
 
 /* Sign Up Form */
 form {
