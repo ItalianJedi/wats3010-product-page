@@ -2,8 +2,6 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 /* Body */
-
-
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -26,9 +24,6 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 1rem;
-    /*color: #43F723;*/
-    /*font-family: 'Fredericka the Great', cursive;*/
-    /*font-family: 'Neucha', cursive;*/
 }
 
 h1 {
@@ -55,18 +50,12 @@ hr {
 
 
 html {
-    background-image: url(chalkboard.jpg);
+    background-image: url(chalkboard.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* Links */
-ul.nav a:hover { color: red !important; }
-
-a:hover {
-    color: red;
-}
-
 a:visited {
     color: green;
 }
@@ -79,58 +68,53 @@ a:visited {
 }
 
 .bg-dark {
-    /*background: linear-gradient(#18191A,#484A4A);*/
-    opacity: .5;
+    opacity: .8;
 }
 
 /* Sections */
 #About:before {
    content: "";
    display: block;
-   height: 100px;
-   margin: -90px 0 0;
+   height: 120px;
+   margin: -100px 0 0;
 }
 
 #Features:before {
    content: "";
    display: block;
-   height: 100px;
+   height: 120px;
    margin: -90px 0 0;
 }
 
 #How:before {
    content: "";
    display: block;
-   height: 100px;
+   height: 120px;
    margin: -90px 0 0;
 }
 
 #Testimonials:before {
    content: "";
    display: block;
-   height: 100px;
+   height: 120px;
    margin: -90px 0 0;
 }
 
 #SignUp:before {
    content: "";
    display: block;
-   height: 100px;
+   height: 120px;
    margin: -90px 0 0;
 }
 
 
 /* Jumbotron */
 .jumbotron {
-  /*background-image: linear-gradient(to right, rgba(255, 64, 10, 0.4), rgba(255, 88, 51, 0.4)), url('test.jpg');*/
   background-image: linear-gradient(to right, rgba(64, 51, 234, 0.4), rgba(96, 142, 234, 0.4)), url('test.jpg');
-  /*color: #43F723;*/
   color: white;
   text-align: center;
   padding-top: 25%;
   padding-bottom: 25%;
-  /*padding-top: 10rem;
-  padding-bottom: 10rem;*/
   text-shadow: 2px 2px #000;
   animation-name: moveInLeft;
   animation-duration: 5s;
@@ -141,11 +125,8 @@ a:visited {
         opacity: 0;
         transform: translateX(-100px);
     }
-    
-    80% {
-        
+    80% {   
     }
-    
     100% {
         opacity: 1;
         transform: translate(0);
@@ -194,19 +175,12 @@ a:visited {
 
 /* Video */
 .video-responsive{
-    /*overflow:hidden;
-    padding-bottom: 25%;
-    padding-top: 35px;
-    position:relative;
-    height:0;*/
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
 }
 .video-responsive iframe{
-    /*display: block;
-    margin: 0 auto;*/
     position: absolute;
 	top: 0;
 	left: 0;
@@ -214,11 +188,6 @@ a:visited {
 	height: 100%;
 }
 
-
-/* .fas {
-    width: 20px;
-    height: 20px;
-} */
 
 /* Testimonitals */
 #testimonials ul li {
@@ -235,11 +204,6 @@ img {
     padding: 50px;
 }
 
-/*.col-centered {
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-}*/
 
 /* Sign Up Form */
 form {
@@ -257,21 +221,12 @@ form {
     flex: 0 1 auto;
 }
 
-/*footer {
-    padding-left: 30px;
-}*/
 
 ul li {
     display: inline;
     padding: 25px
 }
 
-/* Test */
-/*.wrap {
-		position:relative;
-		margin:0 auto;
-		width:1900px;
-	}*/
 
 #footer {
 		width:100%;
@@ -281,6 +236,3 @@ ul li {
 		bottom:0;
 		z-index:999999;
 	}
-/*#testimonial {
-    padding-top: 100px;
-}*/
