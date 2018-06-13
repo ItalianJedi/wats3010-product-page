@@ -110,7 +110,7 @@ a:visited {
 
 /* Jumbotron */
 .jumbotron {
-  background-image: linear-gradient(to right, rgba(64, 51, 234, 0.4), rgba(96, 142, 234, 0.4)), url('test.jpg');
+  background-image: linear-gradient(to right, rgba(64, 51, 234, 0.4), rgba(96, 142, 234, 0.4)), url('jumbotron.jpg');
   color: white;
   text-align: center;
   padding-top: 25%;
